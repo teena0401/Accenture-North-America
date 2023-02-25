@@ -16,21 +16,16 @@ As explained in the data model, popularity is quantified by the “Score” give
 We therefore need data showing the content ID, category, content type, reaction type, and reaction score.
 So, to figure out popularity, we’ll have to add up which content categories have the largest score.
 
-
-#### 1.2: Key Skateholders 
-
 ## Phase 2: Prepare
-#### 2.1 Dataset Used 
-#### 2.2 Dataset Summary 
+#### 2.1 Dataset Summary 
 <img src ="https://imgur.com/gZGxF6I.png">  
 <img src ="https://imgur.com/cdg1XnW.png"> 
 #### 2.3 Dataset Limitations and Integrity 
 
 ## Phase 3: Process
 ### 3.1 Importing Datasets 
-importing three datasets into MySQL database using UI 
+importing three datasets into ```MySQL database``` using UI 
 <img src "https://imgur.com/6oShL6f.png">  
-
 
 ```sql
 SELECT r.`Content ID`,r.`User ID`, r.Datetime , r.Type , c.Category, c.Type as ContentType, rt.sentiment,  rt.Score, SUM(rt.Score) AS SumScore
@@ -44,13 +39,15 @@ SELECT r.`Content ID`,r.`User ID`, r.Datetime , r.Type , c.Category, c.Type as C
       ORDER BY SumScore desc; 
 ``` 
 
-## Phase 4: Analyze 
-##### Data Visualization 
+## Phase 4: Analyze (Data Visualization)  
+
+### 4.1 ```Top Five Most Popular Categories of Posts```
 <img src ="https://imgur.com/saWmY9F.png">
 From our analysis you can see that the top 5 most popular categories of posts were food, culture, soccer, cooking and animals in descending order.
 Food had an aggregate popularity score of almost 76000. It is very interesting to see both food and cooking within the top 5, it really shows what people enjoy consuming as content. But also interesting to see culture too. Clearly users favor "real-life" content on this platform.
 Furthermore soccer is an interesting category because there is the European championships being played very soon. This presents a huge opportunity for you to differentiate your platform and to run specific content or events linked to this global spectacle.
 
+### 4.2 ```
 <img src="https://imgur.com/SwvxGxi.png">
 From our analysis you can see that the top 5 most popular categories of posts were food, culture, soccer, cooking and animals in descending order.
 Food had an aggregate popularity score of almost 76000. It is very interesting to see both food and cooking within the top 5, it really shows what people enjoy consuming as content. But also interesting to see culture too. Clearly users favor "real-life" content on this platform.
