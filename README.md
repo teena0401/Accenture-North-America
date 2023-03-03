@@ -1,11 +1,10 @@
-# xxxxxxxx
+# Social Buzz Marketing Content Analysis 
 
 ## Introduction   
 This case study is part of the Accenture North America Data Analytics and Visualization. 
 
 ## About Social Buzz 
-Social Buzz was founded by two former engineers from a large social media conglomerate, one from London and the other from San Francisco. They left in 2008 and both met in San Francisco to start their business. They started Social Buzz because they saw an opportunity to build on the foundation that their previous company started by creating a new platform where
-content took center stage. Social Buzz emphasizes content by keeping all users anonymous, only tracking user reactions on every piece of content. There are over 100 ways that users can react to content, spanning beyond the traditional reactions of likes, dislikes, and comments. This ensures that trending content, as opposed to individual users, is at the forefront of userfeeds.
+Social Buzz was founded by two former engineers from a large social media conglomerate, one from London and the other from San Francisco. They left in 2008 and both met in San Francisco to start their business. They started Social Buzz because they saw an opportunity to build on the foundation that their previous company started by creating a new platform where content took center stage. Social Buzz emphasizes content by keeping all users anonymous, only tracking user reactions on every piece of content. There are over 100 ways that users can react to content, spanning beyond the traditional reactions of likes, dislikes, and comments. This ensures that trending content, as opposed to individual users, is at the forefront of userfeeds.
 
 ## Method Approach 
 
@@ -48,10 +47,13 @@ Food had an aggregate popularity score of almost 76000. It is very interesting t
 Furthermore soccer is an interesting category because there is the European championships being played very soon. This presents a huge opportunity for you to differentiate your platform and to run specific content or events linked to this global spectacle.
 
 ### 4.2 ```
+
 <img src="https://imgur.com/SwvxGxi.png">
-From our analysis you can see that the top 5 most popular categories of posts were food, culture, soccer, cooking and animals in descending order.
-Food had an aggregate popularity score of almost 76000. It is very interesting to see both food and cooking within the top 5, it really shows what people enjoy consuming as content. But also interesting to see culture too. Clearly users favor "real-life" content on this platform.
-Furthermore soccer is an interesting category because there is the European championships being played very soon. This presents a huge opportunity for you to differentiate your platform and to run specific content or events linked to this global spectacle.
+-From our analysis you can see that the top 5 most popular categories of posts were **food**, **culture**, **soccer**, **cooking** and **animals** in descending order.
+-Food had an aggregate popularity score of almost 76000. It is very interesting to see both food and cooking within the top 5, it really shows what people enjoy consuming as content. 
+-But also interesting to see culture too. Clearly users favor "real-life" content on this platform.
+-Furthermore soccer is an interesting category because there is the European championships being played very soon. 
+-This presents a huge opportunity for you to differentiate your platform and to run specific content or events linked to this global spectacle.
 
 <img src= "https://imgur.com/W0YSZPq.png">
 So to summarize:
@@ -65,10 +67,3 @@ From your data we found that you had a total of 16 unique categories of posts ac
 As well as this, there was 1913 posts from just the Food category alone! People obviously really like food!
 And also the most common month for users to post within was December, since this is such a seasonal month with so many holidays and events, this is interesting to know that people are most active during this month! But now, onto the main question... which is... what were the top 5 most popular categories of posts?
 
-
-
-
-## Phase 5: Share 
-####### Findings 
-## Phase 6: Act 
-####### Recommendations 
